@@ -1,0 +1,12 @@
+.empty_crud{
+	color: blue;
+}
+.success_crud{
+	color: green;
+}
+.error_crud{
+	color: red;
+}
+.error_validate{
+	color: red;
+}

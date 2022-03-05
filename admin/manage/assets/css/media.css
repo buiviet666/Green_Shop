@@ -1,0 +1,255 @@
+/* 1 => 768 */
+@media only screen and (max-width: 768px) {
+    .media-w100 {
+        width: 100%;
+    }
+    /*end category*/
+
+    .featured-card {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    /*end featured-product*/
+}
+
+
+/* 1 => 992 */
+@media only screen and (max-width:992px) {
+    .media-w100 {
+        width: 100%;
+    }
+
+    .header-setup {
+        display: none;
+    }
+
+    .header-setup.active {
+        display: block;
+        
+    }
+
+    .header-click {
+        flex-direction: column;
+    }
+
+    .unsee {
+        display: none;
+    }
+
+}
+
+
+/* 576 => 1400 */
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    .containers {
+        max-width: 540px;
+    }
+
+    .header-search {
+        
+        width: auto;
+    }
+    /*end header*/
+}
+
+
+/* 768 => 1400 */
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    .containers {
+        max-width: 720px;
+    }
+    .flex-width768 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    .header-click {
+        max-width: 450px;
+    }
+    /*end header*/
+
+    .category-item {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    /*end category*/
+
+
+    .featured-card {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    /*end featured-product*/
+    .footer-card {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    /* end footer */
+    .slider-img {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+    /* end slider */
+    .US-flex {
+        flex: 0 0 auto;
+        width: 66.6666666667%;
+    }
+    .US-flex-photo {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    /* end about-US */
+
+    .brand-logo_brand {
+        padding: 48px;
+    }
+    /*end brand*/
+
+    .buynow-card_start {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
+    }
+    /*end buynow*/
+    .login-form {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+    /*end login*/
+}
+
+
+/* 992 => 1400 */
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    .containers {
+        max-width: 960px;
+    }
+    .setup992 {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .flex-width {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+
+    
+    #navbar {
+        display: block;
+    }
+    /*end navbar*/
+    .header-setup {
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-click {
+        max-width: 550px;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #btn {
+        display: none;
+    }
+
+    .header-search {
+        display: none;
+    }
+    .unsee {
+        display: inline;
+    }
+    /*end header*/
+
+    .category-about {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    /*end category*/
+
+
+    .featured-container {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    /*end featured-product*/
+
+    .slider-item {
+        min-height: 30rem
+    }
+    .slider-text {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .slider-img {
+        order: 6;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    /* end slider */
+
+    .services-card {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    /* end about-services */
+
+    .brand-slider {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+    /*end brand*/
+    .buynow-collapse {
+        flex: 0 0 auto;
+        width: 25%;
+    }
+    .buynow-resp_img {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+    /*buy now*/
+    .single-imgall {
+        flex: 0 0 auto;
+        width: 41.6666666667%;
+    }
+    .single-textall {
+        flex: 0 0 auto;
+        width: 58.3333333333%;
+    }
+}
+
+
+/* 1200 => 1400*/
+@media only screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    .containers {
+        max-width: 1140px;
+    }
+    .h1 {
+        font-size: 40px;
+    }
+    .h2 {
+        font-size: 32px;
+    }
+}
+
+
+/* 1400 */
+@media only screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+    .containers {
+        max-width: 1320px;
+    }
+}

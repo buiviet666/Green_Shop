@@ -1,0 +1,251 @@
+
+body {
+  background: url('../img/green-slate.jpg');
+  background-size: cover;
+}
+
+.center-form {
+  margin: 0 auto;
+  width: 600px;
+}
+  
+.login {
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px 20px 20px;
+  background: #ffffff;
+  position: relative;
+  padding-bottom: 80px;
+  width: 100%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.login .input-login {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: black;
+}
+
+.login .input-login + i.fas {
+  color: #59ab6e;
+  font-size: 1em;
+  position: absolute;
+  margin-top: -47px;
+  opacity: 0;
+  left: 0;
+  transition: all 0.1s ease-in;
+}
+
+.login .input-login:focus {
+  outline: none;
+  color: #444;
+  border-color: #212934;
+  border-left-width: 35px;
+}
+
+.login .input-login:focus + i.fas {
+  opacity: 1;
+  left: 30px;
+  transition: all 0.25s ease-out;
+}
+
+/* .hide-password {
+  display: inline-block;
+  position: absolute;
+	text-decoration: none;
+  right: 0;
+  top: 0;
+  padding: 6px 15px;
+  border-left: 1px solid #d2d8d8;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 14px;
+  font-size: 0.875rem;
+  color: #343642;
+} */
+
+.forgot-pass {
+  font-size: 0.8em;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.forgot-pass:hover {
+  color: #59ab6e;
+}
+
+.btn-button {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+  background: #212934;
+  color: #59ab6e;
+  display: block;
+  border: none;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-height: 60px;
+  border: 0px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 2px 2px;
+  transform: rotateZ(0deg);
+  transition: all 0.1s ease-out;
+  border-bottom-width: 7px;
+}
+
+.btn-button:hover {
+  background-color: #59ab6e;
+  color: #fff;
+}
+
+.rememberme-text {
+  color: #444;
+  font-size: 0.8em;
+}
+
+.box-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* sign up */
+
+.sign-up {
+  border-radius: 2px 2px 5px 5px;
+  padding: 10px 20px 20px 20px;
+  background: #ffffff;
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  padding-bottom: 90px;
+}
+
+.put-something {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  transition: border-width 0.2s ease;
+  border-radius: 2px;
+  color: black;
+}
+
+.put-something + i.fas,
+.put-something + i.far {
+  color: #59ab6e;
+  font-size: 1em;
+  position: absolute;
+  margin-top: -47px;
+  opacity: 0;
+  left: 0;
+  transition: all 0.1s ease-in;
+}
+
+.put-something:focus {
+  outline: none;
+  color: #444;
+  border-color: #212934;
+  border-left-width: 35px;
+}
+
+.put-something:focus + i.fas,
+.put-something:focus + i.far {
+  opacity: 1;
+  left: 10px;
+  transition: all 0.25s ease-out;
+  position: absolute;
+}
+
+.sign-up_name {
+  display: flex;
+}
+
+.input-form {
+  position: relative;
+  width: 100%;
+}
+
+.input-label {
+  font-size: 14px;
+  color: #444;
+  padding-left: 15px;
+}
+
+/* new */
+
+.tabs {
+  margin-top: 100px;
+  display: flex;
+  position: relative;
+}
+
+.tabs .line {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 6px;
+  border-radius: 15px;
+  background-color: #59ab6e;
+  transition: all 0.2s ease;
+}
+
+.tab-item {
+  width: 50%;
+  min-width: 80px;
+  padding: 16px 20px 11px 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #59ab6e;
+  background-color: #212934;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 5px solid transparent;
+  opacity: 0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.tab-icon {
+  font-size: 24px;
+  width: 32px;
+  position: relative;
+  top: 2px;
+}
+
+.tab-item:hover {
+  opacity: 1;
+  background-color: #59ab6e;
+  border-color: rgba(194, 53, 100, 0.1);
+  color:#fff;
+}
+
+.tab-item.active {
+  opacity: 1;
+}
+
+.tab-pane {
+  color: #333;
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+.tab-pane h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
